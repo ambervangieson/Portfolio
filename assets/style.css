@@ -1,0 +1,50 @@
+body{
+  font-family: 'Original Surfer', cursive;
+  background-image: url("blue.jpg"); /* The image used */
+  background-color: #76a9ec; /* Used if the image is unavailable */
+  background-repeat: repeat; /* Repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+img {
+  max-width: 75%;
+  height: auto;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  text-align: center;
+  text-shadow: #f4f4f5;
+ font-weight: bolder;
+ font-size: large;
+}
+h3{
+  text-align: left;
+  font-size: large;
+  font-style: bold;
+}
+h4{
+  text-align: left;
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+  font-size: medium;
+}
+h5{
+  text-align: left;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
