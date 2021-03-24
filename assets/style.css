@@ -1,6 +1,7 @@
 body{
-  font-family: 'Original Surfer', cursive;
-  background-image: url("blue.jpg"); /* The image used */
+  font-family: 'Amatic SC', cursive;
+  color:whitesmoke;
+  background-image: url("night.png"); /* The image used */
   background-color: #76a9ec; /* Used if the image is unavailable */
   background-repeat: repeat; /* Repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -10,26 +11,37 @@ img {
   height: auto;
 }
 h2{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  color: whitesmoke;
+  text-align: center;
+  font-size: medium;
+  font-weight: bolder;
+  font-size: x-large;
 }
 h1{
   text-align: center;
   text-shadow: #f4f4f5;
  font-weight: bolder;
- font-size: large;
+ font-size: x-large;
 }
 h3{
   text-align: left;
   font-size: large;
   font-style: bold;
+  font-size: x-large;
 }
 h4{
   text-align: left;
   font-weight: bold;
+  font-size: x-large;
 }
-h2{
-  text-align: center;
+h6{
+  font-family: 'Amatic SC', cursive;
+  color: whitesmoke;
+  text-align: left;
   font-size: medium;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 h5{
   text-align: left;
@@ -42,9 +54,11 @@ h5{
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
+}
+.card-header{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
